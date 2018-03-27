@@ -10,7 +10,7 @@ namespace RPSLS2
     class Human : Player
     {
         //member variable
-        
+            // from parent class
 
         //constructor
         public Human()

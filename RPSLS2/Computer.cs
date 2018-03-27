@@ -10,8 +10,8 @@ namespace RPSLS2
     class Computer : Player
     {
         //member variable
-        
-        
+            // from parent class
+
         //constructor
         public Computer()
         {

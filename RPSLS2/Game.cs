@@ -23,8 +23,7 @@ namespace RPSLS2
         }
 
         //membermethods
-
-        // choose your players
+            // choose your players
         public void ChoosePlayers()
         {
             Console.WriteLine("Enter '1' for Single Player or Enter '2' for 2 Players");
@@ -59,7 +58,7 @@ namespace RPSLS2
             }
         }
 
-        // players choose a move
+            // players choose a move
         public void ChooseYourPlay()
         {
             // Console.Clear();
@@ -71,7 +70,7 @@ namespace RPSLS2
             //  Console.Clear();
         }
 
-        // figure the winner of a throw and score a point
+            // figure the winner of a throw and score a point
         public void ScoreWinningThrow()
         {
             if ((playerOne.possibleMove == "Rock" && playerTwo.possibleMove == "Rock") || (playerOne.possibleMove == "Paper" && playerTwo.possibleMove == "Paper") || (playerOne.possibleMove == "Scissors" && playerTwo.possibleMove == "Scissors") || (playerOne.possibleMove == "Lizard" && playerTwo.possibleMove == "Lizard") || (playerOne.possibleMove == "Spock" && playerTwo.possibleMove == "Spock"))
@@ -90,13 +89,13 @@ namespace RPSLS2
             }
         }
 
-        // display total points for players
+            // display total points for players
         public void ScoreOfMatch()
         {
             Console.WriteLine("\n" + playerOne.name + "'s" + " Score is: " + playerOnePoint + "     " + playerTwo.name + "'s" + " Score is: " + playerTwoPoint);
         }
 
-        // find winner of best of three
+            // find winner of best of three
         public void FindWinnerOfMatch()
         {
             if (playerOnePoint > 1)
@@ -109,7 +108,7 @@ namespace RPSLS2
             }
         }
 
-        // start game
+            // start game
         public void StartGame()
         {
 
