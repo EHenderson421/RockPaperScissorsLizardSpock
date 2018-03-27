@@ -100,16 +100,42 @@ namespace RPSLS2
         {
             if (playerOnePoint > 1)
             {
-                Console.WriteLine("\n----------" + playerOne.name + "----------" + " Wins The Match");
+                Console.WriteLine("\n----------" + playerOne.name + "----------" + " Wins The Match----------");
             }
             else if (playerTwoPoint > 1)
             {
-                Console.WriteLine("\n----------" + playerTwo.name + "----------" + " Wins The Match");
+                Console.WriteLine("\n----------" + playerTwo.name + "----------" + " Wins The Match----------");
             }
         }
 
-            // start game
-        public void StartGame()
+            // restart match yes no
+        public void MatchReset()
+
+        {
+            Console.WriteLine("\n----------Would you like To Play Again?----------");
+            Console.WriteLine("\n---------Type '1' for Yes or '2' for no----------");
+            string playAgainYeasNo = Console.ReadLine();
+            switch (playAgainYeasNo)
+            {
+                case "1":
+                    playerOnePoint = 0;
+                    playerTwoPoint = 0;
+                    BeginGame();
+                    break;
+
+                case "2":
+                    Environment.Exit(0);
+                    break;
+
+                default:
+                    Console.WriteLine("\nPlease Try again");
+                    MatchReset();
+                    break;
+            }
+        }
+
+             // start game
+        public void BeginGame()
         {
 
             Console.Clear();
@@ -125,7 +151,7 @@ namespace RPSLS2
                     ScoreOfMatch();
                 }
                 FindWinnerOfMatch();
-                //RestartGame();
+                MatchReset();
             }
             while (playerOnePoint == 0 && playerTwoPoint == 0);
         }
