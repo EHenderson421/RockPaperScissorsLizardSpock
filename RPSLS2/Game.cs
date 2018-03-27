@@ -25,8 +25,24 @@ namespace RPSLS2
         }
 
         //membermethods
-    
-            // choose your players
+
+        private void DisplayRulesOfGame()
+        {
+            Console.WriteLine("\n---------------------------------------------------------------------------------------------");
+            Console.WriteLine("\nWelcome To Rock Paper Scissors Lizard Spock");
+            Console.WriteLine("\nThis is a 2player game. You Can Have 'Player' vs 'Dr. Shlden Lee Copper' or 'Player' vs 'Player'.");
+            Console.WriteLine("\nYou Will be asked to pick your move. Available moves are 'Rock', 'Paper', 'Scissors', 'Lizard', and 'Spock'.");
+            Console.WriteLine("\nHow To Win \nScissors cuts Paper \nPaper covers Rock \nRock crushes Lizard \nLizard poisons Spock \nSpock smashes Scissors \nScissors decapitates Lizard \nLizard eats Paper \nPaper disproves Spock \nSpock vaporizes Rock \nand as always \nRock crushes Scissors");
+            Console.WriteLine("\n---------------------------------------------------------------------------------------------");
+        }
+
+
+
+
+
+
+
+        // choose your players
         public void ChoosePlayers()
         {
             Console.WriteLine("Enter '1' for Single Player or Enter '2' for Two Players");
@@ -163,6 +179,7 @@ namespace RPSLS2
             Console.Clear();
             do
             {
+                DisplayRulesOfGame();
                 ChoosePlayers();
                 LengthOfGame();
                 while (playerOnePoint < winningScore && playerTwoPoint < winningScore)
