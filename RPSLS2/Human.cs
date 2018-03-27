@@ -6,34 +6,35 @@ using System.Threading.Tasks;
 
 namespace RPSLS2
 {
+
     class Human : Player
     {
         //member variable
         
 
         //constructor
-
         public Human()
         {
         
         }
-        
-        //member methods
 
+        //member methods
+            // get name of player
         public override void GetPlayerName()
         {
-            //get user input
+            // get user input
             Console.WriteLine("\nPlease Enter Your Name.");
             string userInput = Console.ReadLine();
             name = userInput;
 
         }
-
+            // display name of player
         public override void DisplayPlayerName()
         {
             Console.WriteLine("\nWelcome to the game " + name);
         }
 
+            // pick move
         public override void ChooseOption()
         {
             

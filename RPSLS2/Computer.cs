@@ -12,29 +12,26 @@ namespace RPSLS2
         //member variable
         
         
-        // constructor
+        //constructor
         public Computer()
         {
             name = "Dr. Cooper";
         }
 
         //member methods
+            // get name of player
         public override void GetPlayerName()
         {
-           
-
-           // name = "Dr. Cooper";
 
         }
 
+            // display name of player
         public override void DisplayPlayerName()
         {
             Console.WriteLine("\nWelcome to the game " + name);
         }
 
-
-
-
+            // pick move 
         public override void ChooseOption()
         {
             Random random = new Random();

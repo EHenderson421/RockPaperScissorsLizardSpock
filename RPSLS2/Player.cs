@@ -22,7 +22,7 @@ namespace RPSLS2
         }
         //member methods
 
-            //
+            
         
         public abstract void GetPlayerName();
         public abstract void DisplayPlayerName();

@@ -4,3 +4,9 @@ C:\devCode\Visual Studio 2015\Projects\RPSLS2\RPSLS2\bin\Debug\RPSLS2.exe
 C:\devCode\Visual Studio 2015\Projects\RPSLS2\RPSLS2\bin\Debug\RPSLS2.pdb
 C:\devCode\Visual Studio 2015\Projects\RPSLS2\RPSLS2\obj\Debug\RPSLS2.exe
 C:\devCode\Visual Studio 2015\Projects\RPSLS2\RPSLS2\obj\Debug\RPSLS2.pdb
+C:\devCode\Visual Studio 2015\Projects\RockPaperScissorsLizardSpock\RPSLS2\bin\Debug\RPSLS2.exe.config
+C:\devCode\Visual Studio 2015\Projects\RockPaperScissorsLizardSpock\RPSLS2\obj\Debug\RPSLS2.exe
+C:\devCode\Visual Studio 2015\Projects\RockPaperScissorsLizardSpock\RPSLS2\obj\Debug\RPSLS2.pdb
+C:\devCode\Visual Studio 2015\Projects\RockPaperScissorsLizardSpock\RPSLS2\obj\Debug\RPSLS2.csprojResolveAssemblyReference.cache
+C:\devCode\Visual Studio 2015\Projects\RockPaperScissorsLizardSpock\RPSLS2\bin\Debug\RPSLS2.exe
+C:\devCode\Visual Studio 2015\Projects\RockPaperScissorsLizardSpock\RPSLS2\bin\Debug\RPSLS2.pdb
