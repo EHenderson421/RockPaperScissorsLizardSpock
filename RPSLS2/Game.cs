@@ -173,8 +173,6 @@ namespace RPSLS2
                     Console.Clear();
                     Console.WriteLine("\n" + playerTwo.name + " Choose Your Play");
                     playerTwo.ChooseOption();
-                    
-
                     ScoreWinningThrow();
                     ScoreOfMatch();
                     
