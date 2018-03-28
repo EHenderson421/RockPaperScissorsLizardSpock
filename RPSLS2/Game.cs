@@ -19,7 +19,7 @@ namespace RPSLS2
             
         }
 
-       private void DisplayRulesOfGame()
+       public void DisplayRulesOfGame()
         {
             Console.WriteLine("\n---------------------------------------------------------------------------------------------");
             Console.WriteLine("\nWelcome To Rock Paper Scissors Lizard Spock");
