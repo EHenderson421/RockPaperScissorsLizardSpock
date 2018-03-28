@@ -16,7 +16,7 @@ namespace RPSLS2
         public override void GetPlayerName()
         {
             Console.WriteLine("\nPlease Enter Your Name.");
-            string userInput = Console.ReadLine();
+            string userInput = Console.ReadLine().ToUpper();
             name = userInput;
         }
         
