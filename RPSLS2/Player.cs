@@ -11,7 +11,7 @@ namespace RPSLS2
         public string name;
         public string possibleMove;
         public Random RandomPossibleMove;        
-        protected List<string> choice;
+        public List<string> choice;
 
        public Player()
         {
