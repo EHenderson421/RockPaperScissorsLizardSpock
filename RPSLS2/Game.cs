@@ -8,25 +8,18 @@ namespace RPSLS2
 {
     class Game
     {
-        //member variable
-
         int winningScore;
         public int playerOnePoint;
         public int playerTwoPoint;
         Player playerOne;
         Player playerTwo;
 
-
-        //constructor
-
         public Game()
         {
             
         }
 
-        //membermethods
-
-        private void DisplayRulesOfGame()
+       private void DisplayRulesOfGame()
         {
             Console.WriteLine("\n---------------------------------------------------------------------------------------------");
             Console.WriteLine("\nWelcome To Rock Paper Scissors Lizard Spock");
@@ -35,14 +28,7 @@ namespace RPSLS2
             Console.WriteLine("\nHow To Win \nScissors cuts Paper \nPaper covers Rock \nRock crushes Lizard \nLizard poisons Spock \nSpock smashes Scissors \nScissors decapitates Lizard \nLizard eats Paper \nPaper disproves Spock \nSpock vaporizes Rock \nand as always \nRock crushes Scissors");
             Console.WriteLine("\n---------------------------------------------------------------------------------------------");
         }
-
-
-
-
-
-
-
-        // choose your players
+                
         public void ChoosePlayers()
         {
             Console.WriteLine("Enter '1' for Single Player or Enter '2' for Two Players");
@@ -74,7 +60,6 @@ namespace RPSLS2
             }
         }
 
-            // length of game
         public void LengthOfGame()
         {
             Console.WriteLine("Please Select Length Of Match");
@@ -106,7 +91,6 @@ namespace RPSLS2
             }
         }
                
-            // figure the winner of a throw and score a point
         public void ScoreWinningThrow()
         {
             if ((playerOne.possibleMove == "Rock" && playerTwo.possibleMove == "Rock") || (playerOne.possibleMove == "Paper" && playerTwo.possibleMove == "Paper") || (playerOne.possibleMove == "Scissors" && playerTwo.possibleMove == "Scissors") || (playerOne.possibleMove == "Lizard" && playerTwo.possibleMove == "Lizard") || (playerOne.possibleMove == "Spock" && playerTwo.possibleMove == "Spock"))
@@ -125,13 +109,11 @@ namespace RPSLS2
             }
         }
 
-            // display total points for players
         public void ScoreOfMatch()
         {
             Console.WriteLine("\n" + playerOne.name + "'s" + " Score is: " + playerOnePoint + "     " + playerTwo.name + "'s" + " Score is: " + playerTwoPoint);
         }
 
-            // find winner of best of three
         public void FindWinnerOfMatch()
         {
             if (playerOnePoint > 1)
@@ -146,9 +128,7 @@ namespace RPSLS2
             }
         }
 
-            // restart match yes no
         public void MatchReset()
-
         {
             Console.WriteLine("\n----------Would you like To Play Again?----------");
             Console.WriteLine("\n----------Type '1' for Yes or '2' for no----------");
@@ -172,7 +152,6 @@ namespace RPSLS2
             }
         }
 
-             // start game
         public void BeginGame()
         {
 
@@ -199,5 +178,5 @@ namespace RPSLS2
             }
             while (playerOnePoint == 0 && playerTwoPoint == 0);
         }
-        }
+    }
 }

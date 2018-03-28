@@ -6,38 +6,27 @@ using System.Threading.Tasks;
 
 namespace RPSLS2
 {
-
     class Human : Player
     {
-        //member variable
-            // from parent class
-
-        //constructor
         public Human()
         {
         
         }
 
-        //member methods
-            // get name of player
         public override void GetPlayerName()
         {
-            // get user input
             Console.WriteLine("\nPlease Enter Your Name.");
             string userInput = Console.ReadLine();
             name = userInput;
-
         }
-            // display name of player
+        
         public override void DisplayPlayerName()
         {
             Console.WriteLine("\nWelcome to the game " + name);
         }
 
-            // pick move
         public override void ChooseOption()
         {
-            
             Console.WriteLine("\nYour choices are: '1' Rock, '2' Paper, '3' Scissors, '4' Lizard, '5' Spock,");
             possibleMove = Console.ReadLine();
             switch (possibleMove)
@@ -71,7 +60,6 @@ namespace RPSLS2
                     Console.WriteLine("\nPlease Try again");
                     ChooseOption();
                     break;
-
             }
         }
     }
