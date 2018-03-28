@@ -26,7 +26,7 @@ namespace RPSLS2
         public override void ChooseOption()
         {
             Random random = new Random();
-            possibleMove = choice[random.Next(0, 5)];
+            possibleMove = choice[random.Next(0, choice.Count)];
             Console.WriteLine("\n" + name + " Has Decided To Throw: " + possibleMove);
         }
 
