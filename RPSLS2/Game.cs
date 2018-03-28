@@ -116,12 +116,12 @@ namespace RPSLS2
 
         public void FindWinnerOfMatch()
         {
-            if (playerOnePoint > 1)
+            if (playerOnePoint >= 0)
             {
                 Console.WriteLine("\n----------" + playerOne.name + "----------");
                 Console.WriteLine("\n----------Wins The Match----------");
             }
-            else if (playerTwoPoint > 1)
+            else if (playerTwoPoint >= 0)
             {
                 Console.WriteLine("\n----------" + playerTwo.name + "----------");
                 Console.WriteLine("\n----------Wins The Match----------");
