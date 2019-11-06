@@ -95,7 +95,7 @@ namespace RPSLS2
         {
             if ((playerOne.possibleMove == "Rock" && playerTwo.possibleMove == "Rock") || (playerOne.possibleMove == "Paper" && playerTwo.possibleMove == "Paper") || (playerOne.possibleMove == "Scissors" && playerTwo.possibleMove == "Scissors") || (playerOne.possibleMove == "Lizard" && playerTwo.possibleMove == "Lizard") || (playerOne.possibleMove == "Spock" && playerTwo.possibleMove == "Spock"))
             {
-                Console.WriteLine("'Pagh' Its a Draw. 0 Points Awarded");
+                Console.WriteLine("\n" + "'Pagh' Its a Draw. 0 Points Awarded");
             }
             else if ((playerOne.possibleMove == "Rock" && playerTwo.possibleMove == "Scissors") || (playerOne.possibleMove == "Rock" && playerTwo.possibleMove == "Lizard") || (playerOne.possibleMove == "Paper" && playerTwo.possibleMove == "Rock") || (playerOne.possibleMove == "Paper" && playerTwo.possibleMove == "Spock") || (playerOne.possibleMove == "Scissors" && playerTwo.possibleMove == "Paper") || (playerOne.possibleMove == "Scissors" && playerTwo.possibleMove == "Lizard") || (playerOne.possibleMove == "Lizard" && playerTwo.possibleMove == "Spock") || (playerOne.possibleMove == "Lizard" && playerTwo.possibleMove == "Paper") || (playerOne.possibleMove == "Spock" && playerTwo.possibleMove == "Scissors") || (playerOne.possibleMove == "Spock" && playerTwo.possibleMove == "Rock"))
             {
