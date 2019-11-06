@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RPSLS2
+namespace RPSLS3
 {
     abstract class Player
     {
