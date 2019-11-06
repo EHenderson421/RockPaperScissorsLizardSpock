@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RPSLS3
+namespace RPSLS2
 {
    class Computer : Player
     {
